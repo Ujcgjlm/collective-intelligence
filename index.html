@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Simulation</title>
+        <meta charset='utf-8'>
+        <link rel="stylesheet" type="text/css" href="CSS/style.css">
+	</head>
+	<body>
+		<canvas id="canvas" width="0" height="0"></canvas>
+
+		<hr>
+
+		<div class = "blok">
+		<p id="score" class="neon">Total collected: 0 <br>Collected in a second: 0</p>
+
+		<div class = "blok3">
+			<input type="checkbox" id="graphics" class = "checkbox-round">
+			<label for="graphics" class="neon">Graphics</label>
+			<input type="checkbox" id="res_type" class = "checkbox-round">
+			<label for="res_type" class="neon">Resource type</label>
+			<input type="checkbox" id="com_line" class = "checkbox-round">
+			<label for="com_line" class="neon">Communication line</label>
+		</div>
+
+		</div>
+		<hr>
+		<div class = "blok2">
+
+		<div class="blok4">
+			<div>
+			  <input type="range" id="eho" min="0" max="100" value = "50" step = "any">
+			  <label for="eho" class="neon">Range of view</label>
+			</div>
+
+			<div>
+			  <input type="range" id="speed" min="0" max="50" value="5" step = "any">
+			  <label for="speed" class="neon">Speed of agents</label>
+			</div>
+
+			<div>
+			  <input type="range" id="num" min="0" max="1600" value="600" step = "any">
+			  <label for="num" class="neon">Number of agents</label>
+			</div>
+		</div>
+
+		<div class="blok4">
+			<div>
+			  <input type="range" id="sz_ball" min="1" max="30" value = "1" step = "any">
+			  <label for="sz_ball" class="neon">Size of ball</label>
+			</div>
+
+			<div>
+			  <input type="range" id="sz_base" min="1" max="50" value="25" step = "any">
+			  <label for="sz_base" class="neon">Size of base</label>
+			</div>
+
+			<div>
+			  <input type="range" id="Fad" min="0" max="2" value="0.16" step = "any">
+			  <label for="Fad" class="neon">Flight angle deviation</label>
+			</div>
+		</div>
+
+		<div class="blok4">
+			<div>
+				<input type="text" class = "qwe" id="Col1">
+				<label for="Col1" class="neon">First resource color</label>
+			</div>
+			<div>
+				<input type="text" class = "qwe" id="Col2">
+				<label for="Col2" class="neon">Second resource color</label>
+			</div>
+		</div>
+
+		<script src="JavaScripts/script.js"></script>
+		</div>
+	</body>
+</html>
