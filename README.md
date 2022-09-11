@@ -1,2 +1,1 @@
-Here you can find this web site:
-http://159.65.120.144/
+Here you can find this web site: http://collective-intelligence-ujcgjlm.com.xsph.ru/
