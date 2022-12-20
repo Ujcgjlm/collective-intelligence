@@ -1,1 +1,1 @@
-Here you can find this web site: http://collective-intelligence-ujcgjlm.com.xsph.ru/
+Here you can find this web site: [http://collective-intelligence-ujcgjlm.com.xsph.ru/](https://ujcgjlm.github.io/collective-intelligence/)
